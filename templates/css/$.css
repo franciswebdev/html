@@ -1,0 +1,13 @@
+/* Francis del Mundo (That Front End) - http://thatfrontend.com */
+@import url("reset.css");
+
+body {
+	font-size: 100%;
+	font-family: Verdana, Arial;
+}
+
+section {
+	
+	border: 1px solid gray;
+	
+}
