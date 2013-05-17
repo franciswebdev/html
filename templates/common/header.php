@@ -26,11 +26,3 @@
 
 </head>
 <body>
-
-	<section>
-		<div>test</div>
-	</section>
-
-
-</body>
-</html>
