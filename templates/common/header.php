@@ -16,6 +16,16 @@
 	
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/$.css" />
+	<?php 
+		if (isset($styles) && is_array($styles)) {
+			foreach ($styles as $style) {
+				echo '<link rel="stylesheet" type="text/css" href="css/' . $style . '" />';
+			}	
+			unset($style);
+			unset($styles);
+		}
+	?>
+	
 	
 	<!-- Scripts -->
 	<!--[if lt IE 9]>

@@ -6,6 +6,6 @@ body {
 	font-family: Verdana, Arial;
 }
 
-section {
-	
+a {
+	text-decoration: none;
 }

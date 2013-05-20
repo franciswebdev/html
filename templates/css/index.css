@@ -1,0 +1,49 @@
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+a {
+	color: green;
+}
+
+.left-hand-side {
+    border-right: 1px solid;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    white-space: nowrap;
+    width: 250px;
+    
+}
+
+.left-hand-side > * {
+	margin-bottom: 1em;
+}
+
+.left-hand-side > input {
+	margin: 1em;
+}
+
+.left-hand-side li {
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 0 1.2em;
+}
+
+.left-hand-side li ul > li {
+	font-size: 12px;
+}
+
+.body {
+	position: fixed;
+	left: 250px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	border: 1px solid;
+	width: 600px;
+	height: 600px;
+}
