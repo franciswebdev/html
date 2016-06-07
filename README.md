@@ -1,4 +1,4 @@
-html
-====
+HTML files
+==========
 
-Repo for plain HTMLs
+Repository for plain HTML files.
